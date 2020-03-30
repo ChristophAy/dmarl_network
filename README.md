@@ -1,4 +1,4 @@
-## Code for: Modeling Misinformation in Social Networks with Deep Multi-agent Reinforcement Learning
+## Code models Fake News in Social Networks using Deep Multi-agent Reinforcement Learning
 
 To run this code:
 
