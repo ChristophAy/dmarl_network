@@ -1,0 +1,27 @@
+#!/bin/bash
+python -m graph_marl \
+-use_attention_net \
+-T 10 \
+-max_agents 20 \
+-min_agents 20 \
+-max_degree 10 \
+-var 1.5 \
+-n_hidden 32 \
+-do_neighborhood_embedding \
+-n_iterations 10000 \
+-experiment_name test_run \
+-attention_weight_mode dynamic \
+-attention_weight_features all \
+-network_type facebook \
+-seed 123 \
+-bias_per_agent 0 \
+-buffer_size 1 \
+-boltzmann_actions \
+-boltzmann_temp 5 \
+-learning_rate_attack 5e-4 \
+-learning_rate 5e-4 \
+-un_normalized_record_rewards \
+-attack \
+-n_attack 2 \
+-trained_attacker \
+-attack_full_signal_obs

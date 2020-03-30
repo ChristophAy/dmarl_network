@@ -1,0 +1,8 @@
+pandas==0.23.0
+matplotlib==2.2.2
+scipy
+seaborn
+torch
+dgl
+tensorboard
+gitpython
